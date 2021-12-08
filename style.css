@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Handlee', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+h1,h2,h3,h4,h5,h5{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+h1{
+   
+    background-color: rgba(171, 138, 109,0.7);
+    font-size: 3.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about-sec{
+    color: #513f2f;
+}
+
+
+/* header-start */
+header{
+    background-image: url(images/fixed.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.navbar-icon{
+    color: white;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(181, 151, 125,0.5);
+}                                                                     
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 10%;
+    transition: 0.4s;
+   
+}
+.nav-link:hover{
+    color: white;
+   background-color: #745a43;
+   transform: scale(1.1);
+}
+.btn{
+    background-color: #634936;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* header-end */
+
+/* main-section start */
+
+
+#features{
+    padding: 5% 10%;
+    background: #FBFFE2;
+}
+
+.features-col{
+    border: 1px solid rgb(236, 147, 179);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgba();
+}
+.icon-style{
+    background: rgb(221, 60, 119);
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+/* main-section end*/
+
+/* about-me-starts */
+    .about-me{
+        padding: 4% 10%;
+        background:  #e2d9d0;
+    }
+
+    .about-me p{
+        font-size: 18px;
+        margin-bottom: 0;
+        font-weight: light;
+    }
+    .about-me a{
+        font-size: 0.9rem;
+        font-weight: lighter;
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .achieve-desc span{
+        font-weight: 700 !important;
+    }
+/* about-me-ends */
+
+/* photo-collect-stats */
+    #photo{
+        padding: 4% 10%;
+        background-color: #f3ecec;
+    }
+    .card{
+        transition: .4s;
+        border: 1px solid #634936;
+    }
+    .cord:hover{
+        transform: scale(1.1);
+        box-shadow: 2px 6px 5px black;
+    }
+
+/* photo-collect-ends */
+
+/* feedback-starts */
+#feedback{
+    padding: 5%;
+    background-color: #e7cbcb;
+}
+.rounded-circle.feedback-img {
+    width: 150px;
+    height: auto;
+}
+.carousel-item{
+    text-align: center;
+}
+
+/* feedback-ends */
+
+/* contract-start   */
+
+    #contact{
+        padding: 2% 10%;
+        background: #e6ffe6;
+    }
+    .form-group label{
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+
+/* contract-end   */
